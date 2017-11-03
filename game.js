@@ -23,7 +23,7 @@ function Game(canvasElement) {
     self.brickOffsetTop = 100;
     self.brickOffsetLeft = 220;
     self.score = 0;
-    self.lives = 1;
+    self.lives = 3;
     self.intervalId;
 
     //Array for the bricks.
