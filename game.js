@@ -299,8 +299,8 @@ function Game(canvasElement) {
         canvasDiv.style.display = "none";
         self.lives = 4;
         self.score = 0;
-        self.brickRowCount = 7;
-        self.brickColumnCount = 9;
+        self.brickRowCount = 9;
+        self.brickColumnCount = 1;
         self.dx = ++self.dx;
         self.dy = --self.dy;
         self.brickOffsetTop = 100;
