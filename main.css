@@ -1,0 +1,74 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#main {
+    background-image: url("background.png");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#startGame {
+    width: 10%;
+    height: auto;
+}
+
+#startGame :hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+#picture {
+    width: 200px;
+    height: 150px;
+}
+
+canvas {
+    display: block;
+    margin: 0 auto;
+    border-right: #FFC93C 1px solid;
+    border-left: #FFC93C 1px solid;
+    margin-left: 20%;
+}
+
+#gameover {
+    width: 10%;
+    height: auto;
+    display: none;
+}
+
+#youwin {
+    width: 10%;
+    height: auto;
+    display: none;
+}
+
+#reset {
+    width: 5%;
+    height: auto;
+    z-index: 50;
+    display: none;
+}
+
+#reset :hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
